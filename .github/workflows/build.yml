@@ -15,3 +15,10 @@ jobs:
 
       - name: Build Mod
         uses: geode-sdk/build-geode-mod@main
+        id: build
+
+      - name: Upload Mod Artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: geode-mod
+          path: ${{ steps.build.outputs.build-output }}
