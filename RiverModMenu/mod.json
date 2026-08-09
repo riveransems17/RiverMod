@@ -1,0 +1,8 @@
+{
+  "id": "river.modmenu",
+  "name": "River Mod Menu",
+  "developer": "River",
+  "version": "1.0.0",
+  "geode": ">=3.0.0",
+  "gd": "2.206"
+}
